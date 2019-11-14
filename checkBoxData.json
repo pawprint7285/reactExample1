@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "value":"LLC",
+        "label": "Lowest Level Category",
+        "isChecked": false
+    },  
+    {
+        "id": 2,
+        "value":"CoC",
+        "label": "Category of categories",
+        "isChecked": false
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "ID": 1,
+        "Name": "Actual Length (Inches)",
+        "Value": "",
+        "Status": "",
+        "LeftNav": "",
+        "Range": "",
+        "Class": "range"
+    },
+    {
+        "ID": 2,
+        "Name": "Actual Width (Inches)",
+        "Value": "",
+        "Class": "range"
+    },
+    {
+        "ID": 3,
+        "Name": "Actual Height (Inches)",
+        "Value": ""
+    },
+    {
+        "ID": 4,
+        "Name": "Rough Opening Length (Inches)",
+        "Value": ""
+    },
+    {
+        "ID": 5,
+        "Name": "Rough Opening Width (Inches)",
+        "Value": "",
+        "Class": "range"
+    },
+    {
+        "ID": 6,
+        "Name": "Rough Opening Height (Inches)",
+        "Value": ""
+    },
+    {
+        "ID": 7,
+        "Name": "Skylight Style",
+        "Value": ""
+    },
+    {
+        "ID": 8,
+        "Name": "Exterior Frame Material",
+        "Value": "",
+        "Class": "range"
+    },
+    {
+        "ID": 9,
+        "Name": "Interior Frame Material",
+        "Value": "",
+        "Class": "range"
+    },
+    {
+        "ID": 10,
+        "Name": "Frame Color",
+        "Value": ""
+    }
+]

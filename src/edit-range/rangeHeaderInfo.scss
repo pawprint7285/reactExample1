@@ -1,0 +1,67 @@
+div.range-header-info {
+  font-size: 1.03rem;
+
+  span.padding-left {
+    padding-left: 0.7rem;
+  }
+
+  div.display-range-type {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 1.6rem;
+    margin-left: 0.2rem;
+  }
+
+  div.display-range-name {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  div.display-range-name-value {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+  }
+
+  div.display-range-id {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 1.5rem;
+  }
+
+  div.display-range-id-value {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 0.2rem;
+  }
+
+  div.display-range-status {
+    .MuiOutlinedInput-input {
+      padding: 12px;
+    }
+  }
+}
+
+div.padding-top-and-left {
+  padding-top: 1rem;
+  padding-left: 0.4rem;
+}
+
+div.padding-top-and-left-a {
+  padding-top: 1rem;
+  padding-left: 1.4rem;
+}
+
+div.padding-top-and-left-b {
+  padding-top: 0.3rem;
+  padding-left: 1.4rem;
+  padding-bottom: 1rem;
+}

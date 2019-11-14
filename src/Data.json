@@ -1,0 +1,984 @@
+[
+    {
+        "CategoryId": "102167",
+        "Label": "WINDOWS",
+        "Name": "Windows and Doors",
+        "Type": "CoC",
+        "Status": "",
+        "Modified": "",
+        "Parents": [
+            {
+                "CategoryId": "101850",
+                "Label": "SKYLIGHTS",
+                "Name": "Skylights"
+            }, 
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "101851",
+                "Label": "BLINDS",
+                "Name": "Blinds"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101852",
+        "Label": "DEPARTMENTS",
+        "Name": "Departments",
+        "Type": "CoC",
+        "Status": "",
+        "Modified": "",
+        "Parents": [
+            {
+                "CategoryId": "101850",
+                "Label": "SKYLIGHTS",
+                "Name": "Skylights"
+            },
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "101851",
+                "Label": "BLINDS",
+                "Name": "Blinds"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            }
+        ]
+    },
+    {
+        "CategoryId": "103766",
+        "Label": "METAL",
+        "Name": "Metal",
+        "Type": "LLC",
+        "Status": "",
+        "Modified": "",
+        "Parents": [
+            {
+                "CategoryId": "101850",
+                "Label": "SKYLIGHTS",
+                "Name": "Skylights"
+            },
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "101851",
+                "Label": "BLINDS",
+                "Name": "Blinds"
+            },
+            {
+                "CategoryId": "101852",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Attributes": [
+            {
+                "ID": 1,
+                "Name": "Actual Length (Inches)",
+                "Value": "",
+                "Status": "",
+                "LeftNav": "",
+                "Range": "",
+                "Class": "range"
+            },
+            {
+                "ID": 2,
+                "Name": "Actual Width (Inches)",
+                "Value": ""
+            },
+            {
+                "ID": 3,
+                "Name": "Actual Height (Inches)",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "ID": 4,
+                "Name": "Rough Opening Length (Inches)",
+                "Value": ""
+            },
+            {
+                "ID": 5,
+                "Name": "Rough Opening Width (Inches)",
+                "Value": ""
+            },
+            {
+                "ID": 6,
+                "Name": "Rough Opening Height (Inches)",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "ID": 7,
+                "Name": "Skylight Style",
+                "Value": ""
+            },
+            {
+                "ID": 8,
+                "Name": "Exterior Frame Material",
+                "Value": ""
+            },
+            {
+                "ID": 9,
+                "Name": "Interior Frame Material",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "ID": 10,
+                "Name": "Frame Color",
+                "Value": ""
+            }
+        ]
+    },
+    {
+        "CategoryId": "103769",
+        "Label": "WINDOWS",
+        "Name": "Windows",
+        "Type": "CoC",
+        "Status": "",
+        "Modified": "",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "101851",
+                "Label": "BLINDS",
+                "Name": "Blinds"
+            },
+            {
+                "CategoryId": "101852",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101850",
+        "Label": "SKYLIGHTS",
+        "Name": "Skylights",
+        "Type": "LLC",
+        "Status": "",
+        "Modified": "",
+        "Parents": [
+           {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            }, 
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "101851",
+                "Label": "BLINDS",
+                "Name": "Blinds"
+            },
+            {
+                "CategoryId": "101852",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Attributes": [
+            {
+                "ID": 1,
+                "Name": "Actual Length (Inches)",
+                "Value": "",
+                "Status": "",
+                "LeftNav": "",
+                "Range": "",
+                "Class": "range"
+            },
+            {
+                "ID": 2,
+                "Name": "Actual Width (Inches)",
+                "Value": ""
+            },
+            {
+                "ID": 3,
+                "Name": "Actual Height (Inches)",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "ID": 4,
+                "Name": "Rough Opening Length (Inches)",
+                "Value": ""
+            },
+            {
+                "ID": 5,
+                "Name": "Rough Opening Width (Inches)",
+                "Value": ""
+            },
+            {
+                "ID": 6,
+                "Name": "Rough Opening Height (Inches)",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "ID": 7,
+                "Name": "Skylight Style",
+                "Value": ""
+            },
+            {
+                "ID": 8,
+                "Name": "Exterior Frame Material",
+                "Value": ""
+            },
+            {
+                "ID": 9,
+                "Name": "Interior Frame Material",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "ID": 10,
+                "Name": "Frame Color",
+                "Value": ""
+            }
+        ]
+    },
+    {
+        "CategoryId": "101851",
+        "Label": "BLINDS",
+        "Name": "Blinds",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101853",
+        "Label": "SHELVING",
+        "Name": "Shelving",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101854",
+        "Label": "DEWALT",
+        "Name": "Dewalt",
+        "Type": "LLC",
+        "Status": "",
+        "Modified": "",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Attributes": [
+            {
+                "Name": "Actual Length (Inches)",
+                "Value": ""
+            },
+            {
+                "Name": "Actual Width (Inches)",
+                "Value": ""
+            },
+            {
+                "Name": "Actual Height (Inches)",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "Name": "Rough Opening Length (Inches)",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "Name": "Rough Opening Width (Inches)",
+                "Value": ""
+            },
+            {
+                "Name": "Rough Opening Height (Inches)",
+                "Value": ""
+            },
+            {
+                "Name": "Skylight Style",
+                "Value": ""
+            },
+            {
+                "Name": "Exterior Frame Material",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "Name": "Interior Frame Material",
+                "Value": ""
+            },
+            {
+                "Name": "Frame Color",
+                "Value": "",
+                "Class": "range"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101855",
+        "Label": "TILE",
+        "Name": "Tile",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101856",
+        "Label": "WATER HEATER",
+        "Name": "Water Heater",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101857",
+        "Label": "CARPET",
+        "Name": "Carpet",
+        "Type": "LLC",
+        "Status": "",
+        "Modified": "",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Attributes": [
+            {
+                "Name": "Actual Length (Inches)",
+                "Value": ""
+            },
+            {
+                "Name": "Actual Width (Inches)",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "Name": "Actual Height (Inches)",
+                "Value": ""
+            },
+            {
+                "Name": "Rough Opening Length (Inches)",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "Name": "Rough Opening Width (Inches)",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "Name": "Rough Opening Height (Inches)",
+                "Value": ""
+            },
+            {
+                "Name": "Skylight Style",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "Name": "Exterior Frame Material",
+                "Value": ""
+            },
+            {
+                "Name": "Interior Frame Material",
+                "Value": "",
+                "Class": "range"
+            },
+            {
+                "Name": "Frame Color",
+                "Value": ""
+            }
+        ]
+    },
+    {
+        "CategoryId": "101858",
+        "Label": "WOOD",
+        "Name": "Wood",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101859",
+        "Label": "LIGHTING",
+        "Name": "Lighting",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101202",
+        "Label": "PLUUMBING",
+        "Name": "Plumbing",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101857",
+                "Label": "CARPET",
+                "Name": "Carpet"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101203",
+        "Label": "FRIDGES",
+        "Name": "Fridges",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "103766",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            },
+            {
+                "CategoryId": "101857",
+                "Label": "CARPET",
+                "Name": "Carpet"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101204",
+        "Label": "SCREWS",
+        "Name": "Screws",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101205",
+                "Label": "HAMMERS",
+                "Name": "Hamers"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            },
+            {
+                "CategoryId": "101857",
+                "Label": "CARPET",
+                "Name": "Carpet"
+            }
+        ]
+    },
+    {
+        "CategoryId": "101205",
+        "Label": "HAMMERS",
+        "Name": "Hammers",
+        "Type": "CoC",
+        "Parents": [
+            {
+                "CategoryId": "103766",
+                "Label": "METAL",
+                "Name": "Metal"
+            },
+            {
+                "CategoryId": "103769",
+                "Label": "CAT_WINDOWS",
+                "Name": "Windows"
+            },
+            {
+                "CategoryId": "102167",
+                "Label": "WINDOWS_DOORS",
+                "Name": "Windows & Doors"
+            },
+            {
+                "CategoryId": "100845",
+                "Label": "DEPARTMENTS",
+                "Name": "Departments"
+            }
+        ],
+        "Children": [
+            {
+                "CategoryId": "101204",
+                "Label": "SCREWS",
+                "Name": "Screws"
+            },
+            {
+                "CategoryId": "101203",
+                "Label": "FRIDGES",
+                "Name": "Fridges"
+            },
+            {
+                "CategoryId": "101202",
+                "Label": "PLUMBING",
+                "Name": "Plumbing"
+            },
+            {
+                "CategoryId": "101857",
+                "Label": "CARPET",
+                "Name": "Carpet"
+            }
+        ]
+    }    
+]

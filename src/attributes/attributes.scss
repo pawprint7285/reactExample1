@@ -1,0 +1,83 @@
+.categoryList {
+  width: calc(100% - 250px);
+  float: left;
+  margin-left: 30px;
+  height: 320px;
+  overflow: auto;
+
+  ul {
+    list-style: none !important;
+
+    li {
+      background: #ddd;
+      padding: 6px 15px;
+      border-top: 1px solid #bbb;
+      border-bottom: 1px solid #bbb;
+    }
+  }
+}
+button.pf-c-button.pf-m-primary {
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+input.pf-c-form-control {
+  float: left;
+  margin: 25px;
+  color: #bbb;
+}
+
+.p-card {
+  // background-color: rgb(63, 81, 181) !important;
+  margin: 15px;
+  height: 140px;
+  width: 140px;
+  // margin-bottom: 15px
+}
+
+.searchInputs {
+  padding-left: 0;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  .p-inputtext {
+    background: lightgrey;
+    width: 320px;
+    height: 45px;
+    border: none;
+  }
+  .p-button {
+    background: lightgrey !important;
+    border: lightgrey !important;
+    border-left: 1px solid darkgrey !important;
+    // border: lightgrey !important;
+    height: 45px;
+    margin: -50px;
+  }
+}
+.checkBoxFilters {
+  text-align: center;
+  .p-grid {
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
+
+.p-card-body {
+  padding: 1em;
+  text-align: center;
+}
+
+.p-checkbox-label {
+  padding-right: 9px !important;
+  margin-left: 2px !important;
+}
+
+.rangeCard {  
+  background-color:rgb(2, 255, 107) !important;
+}
+.categoryCard{
+  background-color: rgb(7, 187, 241) !important;
+}

@@ -1,0 +1,67 @@
+div.attr-header-info {
+  font-size: 1.03rem;
+
+  span.padding-left {
+    padding-left: 0.7rem;
+  }
+
+  div.display-attribute-type {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 1.6rem;
+    margin-left: 0.2rem;
+  }
+
+  div.display-attribute-name {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  div.display-attribute-name-value {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+  }
+
+  div.display-attribute-id {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 1.5rem;
+  }
+
+  div.display-attribute-id-value {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 0.2rem;
+  }
+
+  div.display-attribute-status {
+    .MuiOutlinedInput-input {
+      padding: 12px;
+    }
+  }
+}
+
+div.pad-top-left-a {
+  padding-top: 1rem;
+  padding-left: 0.4rem;
+}
+
+div.pad-top-left-b {
+  padding-top: 1rem;
+  padding-left: 1.4rem;
+}
+
+div.pad-top-left-c {
+  padding-top: 0.3rem;
+  padding-left: 1.4rem;
+  padding-bottom: 1rem;
+}

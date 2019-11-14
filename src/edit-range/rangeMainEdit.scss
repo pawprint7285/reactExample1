@@ -1,0 +1,38 @@
+h6.padding-bottom {
+  padding-bottom: 0.8rem;
+}
+
+div.test-input-padding {
+  //   padding-top: 10px;
+  max-width: 100%;
+}
+
+div.drop-down-padding {
+  max-width: 100%;
+  padding-top: -2px;
+  //   padding-left: 12px;
+}
+
+div.check-box-padding {
+  max-width: 100%;
+  padding-top: 0.2rem;
+  padding-left: 1rem;
+}
+
+div.attr-header-info {
+  div.custom-div-display-from {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 1.9rem;
+    margin-left: 0.8rem;
+  }
+  div.custom-div-display-to {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 1.9rem;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
