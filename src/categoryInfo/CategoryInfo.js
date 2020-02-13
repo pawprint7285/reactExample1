@@ -45,7 +45,7 @@ class CategoryInfo extends Component {
         oldData = JSON.parse(copyOld);
     }
 
-    componentWillReceiveProps(rProps) {
+    UNSAFE_componentWillReceiveProps(rProps) {
         // console.log("++++++++", rProps);
         const copyOld = JSON.stringify(rProps.categoryOfCategories);
         const copyOfCategoryOfCategories = JSON.parse(copyOld)

@@ -6,6 +6,7 @@
         "Type": "CoC",
         "Status": "",
         "Modified": "",
+        "InventoryId": "1",
         "Parents": [
             {
                 "CategoryId": "101850",
@@ -58,6 +59,7 @@
         "Type": "CoC",
         "Status": "",
         "Modified": "",
+        "InventoryId": "2",
         "Parents": [
             {
                 "CategoryId": "101850",
@@ -110,6 +112,7 @@
         "Type": "LLC",
         "Status": "",
         "Modified": "",
+        "InventoryId": "3",
         "Parents": [
             {
                 "CategoryId": "101850",
@@ -199,6 +202,7 @@
         "Type": "CoC",
         "Status": "",
         "Modified": "",
+        "InventoryId": "4",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -246,6 +250,7 @@
         "Type": "LLC",
         "Status": "",
         "Modified": "",
+        "InventoryId": "5",
         "Parents": [
            {
                 "CategoryId": "103766",
@@ -333,6 +338,7 @@
         "Label": "BLINDS",
         "Name": "Blinds",
         "Type": "CoC",
+        "InventoryId": "6",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -383,6 +389,7 @@
         "Label": "SHELVING",
         "Name": "Shelving",
         "Type": "CoC",
+        "InventoryId": "7",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -435,6 +442,7 @@
         "Type": "LLC",
         "Status": "",
         "Modified": "",
+        "InventoryId": "8",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -509,6 +517,7 @@
         "Label": "TILE",
         "Name": "Tile",
         "Type": "CoC",
+        "InventoryId": "9",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -559,6 +568,7 @@
         "Label": "WATER HEATER",
         "Name": "Water Heater",
         "Type": "CoC",
+        "InventoryId": "10",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -611,6 +621,7 @@
         "Type": "LLC",
         "Status": "",
         "Modified": "",
+        "InventoryId": "11",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -686,6 +697,7 @@
         "Label": "WOOD",
         "Name": "Wood",
         "Type": "CoC",
+        "InventoryId": "12",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -736,6 +748,7 @@
         "Label": "LIGHTING",
         "Name": "Lighting",
         "Type": "CoC",
+        "InventoryId": "13",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -786,6 +799,7 @@
         "Label": "PLUUMBING",
         "Name": "Plumbing",
         "Type": "CoC",
+        "InventoryId": "14",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -836,6 +850,7 @@
         "Label": "FRIDGES",
         "Name": "Fridges",
         "Type": "CoC",
+        "InventoryId": "15",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -886,6 +901,7 @@
         "Label": "SCREWS",
         "Name": "Screws",
         "Type": "CoC",
+        "InventoryId": "16",
         "Parents": [
             {
                 "CategoryId": "103766",
@@ -936,6 +952,7 @@
         "Label": "HAMMERS",
         "Name": "Hammers",
         "Type": "CoC",
+        "InventoryId": "17",
         "Parents": [
             {
                 "CategoryId": "103766",

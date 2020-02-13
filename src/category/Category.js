@@ -27,7 +27,7 @@ class Category extends Component {
         this.props.getSearchedCategories('');
     }
 
-    componentWillReceiveProps(recievedProps) {
+    UNSAFE_componentWillReceiveProps(recievedProps) {
         // console.log("componentWillReceiveProps called...", recievedProps)
         // console.log("recievedProps: ", recievedProps);
         this.setState({
@@ -70,6 +70,7 @@ class Category extends Component {
                 <Link to={'/Category-info/' + item.CategoryId} key={o}>
                     <Card
                         title={item.Label}
+                        subTitle={item.InventoryId}
                         style={{ width: '150px', color: 'white', float: 'left' }}
                         key={o}
                         id={"category-" + o}

@@ -23,7 +23,7 @@ function EditRangeContainer({
   authors,
   //   loadAuthors,
   //   loadCourses,
-  saveCourse,
+  // saveCourse,
   // attribute,
   history,
   ...props
@@ -142,15 +142,15 @@ function EditRangeContainer({
     event.preventDefault();
     if (!formIsValid()) return;
     // setSaving(true);
-    saveCourse(course)
-      .then(() => {
-        // toast.success("Course saved.");
-        history.push("/courses");
-      })
-      .catch(error => {
-        // setSaving(false);
-        // setErrors({ onSave: error.message });
-      });
+    // saveCourse(course)
+    //   .then(() => {
+    //     // toast.success("Course saved.");
+    //     history.push("/courses");
+    //   })
+    //   .catch(error => {
+    //     // setSaving(false);
+    //     // setErrors({ onSave: error.message });
+    //   });
   };
 
   return (
@@ -168,7 +168,7 @@ EditRangeContainer.propTypes = {
   courses: PropTypes.array.isRequired,
   //   loadCourses: PropTypes.func.isRequired,
   //   loadAuthors: PropTypes.func.isRequired,
-  saveCourse: PropTypes.func.isRequired,
+  // saveCourse: PropTypes.func.isRequired,
   history: PropTypes.object.isRequired,
   range: PropTypes.object.isRequired
 };

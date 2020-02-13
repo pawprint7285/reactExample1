@@ -23,7 +23,7 @@ class CategoryAttribute extends Component {
         this.props.getAttributes(this.props.location.state.currentCategoryID);
     }
 
-    componentWillReceiveProps(receivedProps) {
+    UNSAFE_componentWillReceiveProps(receivedProps) {
         console.log("componentWillReceiveProps called: ", receivedProps);
 
         const allAttributes = receivedProps.allAttributes;

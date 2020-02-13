@@ -77,7 +77,7 @@ const styleC = {
 const RangeHeaderInfo = ({
   //   course,
   //   authors,
-  onSave,
+  // onSave,
   onChange,
   //   saving = false,
   //   errors = {},
@@ -175,10 +175,10 @@ const RangeHeaderInfo = ({
 };
 
 RangeHeaderInfo.propTypes = {
-  authors: PropTypes.array.isRequired,
-  course: PropTypes.object.isRequired,
+  // authors: PropTypes.array.isRequired,
+  // course: PropTypes.object.isRequired,
   errors: PropTypes.object,
-  onSave: PropTypes.func.isRequired,
+  // onSave: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired,
   saving: PropTypes.bool,
   range: PropTypes.object.isRequired

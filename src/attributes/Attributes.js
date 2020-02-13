@@ -28,7 +28,7 @@ class Attributes extends Component {
         this.props.getSearchedAttributes('');
     }
 
-    componentWillReceiveProps(recievedProps) {
+    UNSAFE_componentWillReceiveProps(recievedProps) {
         console.log("componentWillReceiveProps called...", recievedProps)
         console.log("recievedProps: ", recievedProps);
         this.setState({
@@ -55,6 +55,12 @@ class Attributes extends Component {
 
         this.props.getSearchedAttributes(this.state.searchedText);
 
+    }
+
+    keyPressed = (e) => {
+        if(e.keyPressed === "Enter"){
+            console.log("Enter Key Pressed")
+        }
     }
 
     render() {
@@ -91,7 +97,7 @@ class Attributes extends Component {
                             {/* InputText component of prime react */}
                             <InputText value={searchedText} onChange={this.handleTextInputChange} placeholder="Search..." />
                             {/* Button comopnent of prime react */}
-                            <Button label="Go" className="p-button-secondary" onClick={this.onSearch} />
+                            <Button label="Go" className="p-button-secondary" onClick={this.onSearch} keyPressed={this.onSearch}/>
                         </div>
                         <div className="checkBoxFilters">
                             <div className="p-grid">

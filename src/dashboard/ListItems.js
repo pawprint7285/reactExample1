@@ -18,6 +18,8 @@ import BeenhereIcon from "@material-ui/icons/Beenhere";
 import ViewListIcon from "@material-ui/icons/ViewList";
 
 import SearchIcon from "@material-ui/icons/Search";
+import AddIcon from '@material-ui/icons/Add';
+import MinimizeIcon from '@material-ui/icons/Minimize';
 import StoageIcon from "@material-ui/icons/Storage";
 import FormatListBulletedIcon from "@material-ui/icons/FormatListBulleted";
 import InsertChartOutlinedIcon from "@material-ui/icons/InsertChartOutlined";
@@ -75,8 +77,13 @@ const useStyles = makeStyles(theme => ({
 export default function NestedList() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);
+  const [open2, setOpen2] = React.useState(true);
 
   function handleClick() {
+    setOpen(!open2);
+  }
+
+  function handleClick2() {
     setOpen(!open);
   }
 
@@ -96,13 +103,13 @@ export default function NestedList() {
           <SearchIcon />
         </ListItemIcon>
         <ListItemText primary="Search" />
-        {open ? <ExpandLess /> : <ExpandMore />}
+        {open2 ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
-      <Collapse in={open} timeout="auto" unmountOnExit>
+      <Collapse in={open2} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           <ListItem button component={Link} to="/" className={classes.nested}>
             <ListItemIcon>
-              <StoageIcon />
+              <MinimizeIcon />
             </ListItemIcon>
             <ListItemText primary="Categories" />
           </ListItem>
@@ -113,24 +120,47 @@ export default function NestedList() {
             className={classes.nested}
           >
             <ListItemIcon>
-              <FormatListBulletedIcon />
+              <MinimizeIcon />
             </ListItemIcon>
             <ListItemText primary="Attributes" />
           </ListItem>
         </List>
       </Collapse>
-      <ListItem button component={Link} to="attribute">
+
+
+
+      <ListItem button onClick={handleClick2}>
         <ListItemIcon>
-          <InsertChartOutlinedIcon />
+          <AddIcon />
         </ListItemIcon>
-        <ListItemText primary="New Attribute" />
+        <ListItemText primary="Add" />
+        {open ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
-      <ListItem button component={Link} to="range">
-        <ListItemIcon>
-          <DraftsIcon />
-        </ListItemIcon>
-        <ListItemText primary="New Range" />
-      </ListItem>
+      <Collapse in={open} timeout="auto" unmountOnExit>
+        <List component="div" disablePadding>
+          <ListItem button component={Link} to="range" className={classes.nested}>
+            <ListItemIcon>
+              <MinimizeIcon />
+            </ListItemIcon>
+            <ListItemText primary="New Range" />
+          </ListItem>
+          <ListItem
+              button
+              component={Link}
+              to="attribute"
+              className={classes.nested}
+          >
+            <ListItemIcon>
+              <MinimizeIcon />
+            </ListItemIcon>
+            <ListItemText primary="New Attribute" />
+          </ListItem>
+        </List>
+      </Collapse>
+
+
+
+
     </List>
   );
 }
