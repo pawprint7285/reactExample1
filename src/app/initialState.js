@@ -3,7 +3,6 @@ export default {
   authors: [],
   apiCallsStatus: 0,
   categoryInfo: [],
-  report: {},
   attributes: {},
   attributeSearch: {},
   categories: {},
